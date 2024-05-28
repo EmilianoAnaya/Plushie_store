@@ -1,0 +1,156 @@
+/*CONTENEDOR DETALLES*/
+
+.detalle-table
+{
+    display: grid;
+    background-color: #f8f8f8;
+    width: 100vh;
+    height: 50vh;
+    margin: 5vh auto;
+    border-radius: 5px;
+    box-shadow: 8px 8px #979797;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+}
+
+
+.detalle-imagen img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.detalle-info
+{
+    margin: 20% 0;
+    width: 100%;
+    height: 100%;
+}
+
+.info-nombre
+{
+    font-size: x-large;
+    font-family: 'Verdana';
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.info-stock
+{
+    font-size:large;
+    font-family: 'Times New Roman';
+    color:darkcyan;
+    font-style:oblique;
+}
+
+.info-desc
+{
+    font-size: medium;
+    color: #8e8e8e
+}
+
+.info-price
+{
+    font-size: xx-large;
+    color: #208ede;
+}
+
+.similares
+{
+    margin-left: 25%;
+    font-size: x-large;
+    font-family: 'Verdana';
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.carrito
+{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.cantidad
+{   
+    width: 16%;
+}
+
+.text-mini
+{
+    font-family: "Malgun Gothic";
+    font-size:small;
+    font-weight: bold;
+}
+/*CONTENEDOR SUGERENCIAS*/
+
+.contenedor
+{
+        display: grid;
+        grid-template-columns: 33.33% 33.33% 33.33%;
+        width: 50%;
+        height: 10vw;
+        margin: 5vh auto;
+        min-height: calc(100vh - 100px - 300px);
+        border-radius: 5px;
+        box-shadow: 8px 8px #979797;
+}
+    
+     .producto
+     {
+        display: grid;
+        grid-template-rows: 50% 50%;
+        background-color: lightblue;
+        text-align: center; 
+     }
+
+     .imagen
+     {
+        background-color: white;
+     }
+
+     .imagen img
+     {
+        width: 100%;
+        height: 100%;
+     }
+
+    .descripcion
+     {
+        background-color: #f8f8f8;
+     }
+
+    .text
+    {
+        font-family: "Malgun Gothic";
+        font-size:x-large;
+    }
+
+    .nombre
+    {
+        font-weight: bold;
+    }
+
+    .price
+    {
+        color:deepskyblue;
+    }
+
+    .text a
+    {
+        color: black;
+    }
+
+    .btn
+    {
+        background-color:#c2e5ea;
+        padding: 5px;
+        border-radius: 5px;
+    }
+
+    .btn:hover
+    {
+        background-color: aquamarine;
+        padding: 5px;
+        border-radius: 5px;
+    }
